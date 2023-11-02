@@ -367,8 +367,10 @@ function saveJSONtoLocalStorage(key, item) {
 		if (event.type === "touchstart") {
 			x = event.changedTouches[0].clientX
 		} else {
-            const OUTPUT = document.querySelector(".output")
-			OUTPUT.innerText = x < event.changedTouches[0].clientX ? "højre" : "venstre"
+            const OUTPUT_LEFT_RIGHT = document.querySelector(".output-LEFT-RIGHT")
+            const OUTPUT_UP_DOWN = document.querySelector(".output-UP-DOWN")
+			OUTPUT_LEFT_RIGHT.innerText = x < event.changedTouches[0].clientX ? "højre " : "venstre "
+			OUTPUT_UP_DOWN.innerText = x < event.changedTouches[0].clientY ? "ned" : "op"
 			x = null
 		}
 	}

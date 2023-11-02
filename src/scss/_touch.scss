@@ -8,7 +8,21 @@
 	}
 }
 
-.output-LEFT-RIGHT, .output-UP-DOWN{
-    font-weight: bold;
-    font-size: larger;
+@keyframes moveRight{
+	0%{
+		transform: translateX(0);
+	}
+
+	100%{
+		transform: translateX(120%);
+	}
+}
+@keyframes moveLeft{
+	0%{
+		transform: translateX(0);
+	}
+
+	100%{
+		transform: translateX(-120%);
+	}
 }

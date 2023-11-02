@@ -363,14 +363,31 @@ function saveJSONtoLocalStorage(key, item) {
 	let x
 
 	function touchHandler(event) {
-		console.log(event.changedTouches[0].clientX)
 		if (event.type === "touchstart") {
 			x = event.changedTouches[0].clientX
-		} else {
-            const OUTPUT_LEFT_RIGHT = document.querySelector(".output-LEFT-RIGHT")
-            const OUTPUT_UP_DOWN = document.querySelector(".output-UP-DOWN")
-			OUTPUT_LEFT_RIGHT.innerText = x < event.changedTouches[0].clientX ? "højre " : "venstre "
-			OUTPUT_UP_DOWN.innerText = x < event.changedTouches[0].clientY ? "ned" : "op"
+		} else { // touchend
+			let direction
+			if (x + 50 < event.changedTouches[0].clientX) {
+				direction = "Right"
+			} else if (x - 50 > event.changedTouches[0].clientX) {
+				direction = "Left"
+			}
+
+			if (direction) {
+				DIV.lastElementChild.addEventListener("animationstart", function() {
+					DIV.removeEventListener("touchstart", touchHandler)
+					DIV.removeEventListener("touchend", touchHandler)
+				})
+				DIV.lastElementChild.addEventListener("animationend", function() {
+					//DIV.lastElementChild.style.animation = ""
+					DIV.removeChild(DIV.lastElementChild)
+					DIV.addEventListener("touchstart", touchHandler)
+					DIV.addEventListener("touchend", touchHandler)
+				})
+
+				DIV.lastElementChild.style.animation = `move${direction} 2s ease`;
+				direction = null
+			}
 			x = null
 		}
 	}

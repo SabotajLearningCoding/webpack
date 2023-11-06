@@ -393,21 +393,7 @@ function saveJSONtoLocalStorage(key, item) {
 	}
 })());
 
-;// CONCATENATED MODULE: ./src/images/266.jpg
-var _266_namespaceObject = "data:image/jpeg;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzLzI2Ni5qcGciOw==";
-;// CONCATENATED MODULE: ./src/images/354.jpg
-var _354_namespaceObject = "data:image/jpeg;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzLzM1NC5qcGciOw==";
-;// CONCATENATED MODULE: ./src/images/394.jpg
-var _394_namespaceObject = "data:image/jpeg;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzLzM5NC5qcGciOw==";
-;// CONCATENATED MODULE: ./src/images/463.jpg
-var _463_namespaceObject = "data:image/jpeg;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzLzQ2My5qcGciOw==";
-;// CONCATENATED MODULE: ./src/images/539.jpg
-var _539_namespaceObject = "data:image/jpeg;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzLzUzOS5qcGciOw==";
 ;// CONCATENATED MODULE: ./src/index.js
-
-
-
-
 
 
 

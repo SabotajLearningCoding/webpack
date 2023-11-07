@@ -95,7 +95,17 @@ var __webpack_exports__ = {};
 	}
 })());
 
+;// CONCATENATED MODULE: ./src/images/archive-icon.png
+var archive_icon_namespaceObject = "data:image/png;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzL2FyY2hpdmUtaWNvbi5wbmciOw==";
+;// CONCATENATED MODULE: ./src/images/settings-icon.png
+var settings_icon_namespaceObject = "data:image/png;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzL3NldHRpbmdzLWljb24ucG5nIjs=";
+;// CONCATENATED MODULE: ./src/images/delete-icon.png
+var delete_icon_namespaceObject = "data:image/png;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzL2RlbGV0ZS1pY29uLnBuZyI7";
 ;// CONCATENATED MODULE: ./src/index.js
+
+
+
+
 
 
 

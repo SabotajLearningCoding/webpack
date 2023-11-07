@@ -1,14 +1,12 @@
 .header {
   display: flex; // display the element with display flex
   justify-content: space-between; //space between the elements inside header
-  padding: 0% 10%; //padding top and bottom 0px padding left and right 10px
-  margin-bottom: 5%; //margin bottom on 10px so the content under has some gap
+  padding: 5% 10%; //padding top and bottom 0px padding left and right 10px
 
   .header__archive,
-  .header__settings,
-  .header__heading {
+  .header__settings {
     width: 30px;
     height: 30px;
-    border: solid 2px grey;
+    cursor: pointer;
   }
 }

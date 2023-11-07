@@ -6,3 +6,4 @@ import "./scripts/touch";
 import "./images/archive-icon.png";
 import "./images/settings-icon.png";
 import "./images/delete-icon.png";
+import "./images/placeholder.png";

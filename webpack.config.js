@@ -33,7 +33,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpe?g)$/i,
+        test: /\.(png|jpe?g|gif)$/i,
         type: "asset",
         use: [
           {

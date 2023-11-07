@@ -21,36 +21,37 @@ var __webpack_exports__ = {};
 	}
 })());
 ;// CONCATENATED MODULE: ./src/scripts/darkmode.js
-/* harmony default export */ var darkmode = ((function() {
-	if (!window.location.pathname.includes("darkmode.html")) return // guard clause
+/* harmony default export */ var darkmode = ((function () {
+  if (!window.location.pathname.includes("darkmode.html")) return; // guard clause
 
-	if (window.matchMedia("(prefers-color-scheme: dark)").matches
-		&& localStorage.getItem("theme") !== "") {
-		localStorage.setItem("theme", "darkmode")
-	}
+  if (
+    window.matchMedia("(prefers-color-scheme: dark)").matches &&
+    localStorage.getItem("theme") !== ""
+  ) {
+    localStorage.setItem("theme", "darkmode");
+  }
 
-	const CTA_BUTTON = document.querySelector(".switch__checkbox")
-	CTA_BUTTON.addEventListener("click", clickHandler)
+  const CTA_BUTTON = document.querySelector(".switch__checkbox");
+  CTA_BUTTON.addEventListener("click", clickHandler);
 
-	function clickHandler() {
-		const CLASS_LIST = document.body.classList
-		CLASS_LIST.toggle("darkmode")
-		localStorage.setItem("theme",
-			CLASS_LIST.contains("darkmode")
-				? "darkmode"
-				: "")
-	}
+  function clickHandler() {
+    const CLASS_LIST = document.body.classList;
+    CLASS_LIST.toggle("darkmode");
+    localStorage.setItem(
+      "theme",
+      CLASS_LIST.contains("darkmode") ? "darkmode" : ""
+    );
+  }
 
-	if(!localStorage.getItem("theme")) {
-		localStorage.setItem("theme", "")
-	}
+  if (!localStorage.getItem("theme")) {
+    localStorage.setItem("theme", "");
+  }
 
-	if (localStorage.getItem("theme") === "darkmode") {
-		CTA_BUTTON.checked = true
-	}
+  if (localStorage.getItem("theme") === "darkmode") {
+    CTA_BUTTON.checked = true;
+  }
 
-	document.body.classList.add(localStorage.getItem("theme"))
-
+  document.body.classList.add(localStorage.getItem("theme"));
 })());
 
 ;// CONCATENATED MODULE: ./src/scripts/touch.js
@@ -95,7 +96,20 @@ var __webpack_exports__ = {};
 	}
 })());
 
+;// CONCATENATED MODULE: ./src/images/archive-icon.png
+var archive_icon_namespaceObject = "data:image/png;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzL2FyY2hpdmUtaWNvbi5wbmciOw==";
+;// CONCATENATED MODULE: ./src/images/settings-icon.png
+var settings_icon_namespaceObject = "data:image/png;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzL3NldHRpbmdzLWljb24ucG5nIjs=";
+;// CONCATENATED MODULE: ./src/images/delete-icon.png
+var delete_icon_namespaceObject = "data:image/png;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzL2RlbGV0ZS1pY29uLnBuZyI7";
+;// CONCATENATED MODULE: ./src/images/placeholder.png
+var placeholder_namespaceObject = "data:image/png;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzL3BsYWNlaG9sZGVyLnBuZyI7";
 ;// CONCATENATED MODULE: ./src/index.js
+
+
+
+
+
 
 
 

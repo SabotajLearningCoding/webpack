@@ -1,4 +1,4 @@
-.setting {
+.settings {
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -21,7 +21,7 @@
     transition: transform 0.2s ease-in-out;
     transform: translateX(100%);
   }
-  &__header {
+  &__heading {
     text-transform: uppercase;
   }
 }

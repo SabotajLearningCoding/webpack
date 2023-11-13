@@ -1,17 +1,3 @@
-.header {
-  display: flex; // display the element with display flex
-  justify-content: space-between; //space between the elements inside header
-  padding: 5% 10%; //padding top and bottom 0px padding left and right 10px
-
-  &__archive,
-  &__settings {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-  }
-}
-
-/*_----------------------------------------------------------------------------------_*/
 .menu {
   border-bottom: 1px solid #f0f3f4;
   &__list {
@@ -20,13 +6,7 @@
     align-items: center;
     justify-content: space-between;
   }
-  &__header {
-    @extend %primary-heading;
-  }
-  &__search {
-    background-color: #f0f3f4;
-  }
-  &__inbox {
+  &__archive {
     position: relative;
     &::after {
       background-color: #87bcbf;

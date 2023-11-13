@@ -12,11 +12,17 @@
 <body>
     <div id="wrapper">
         <header class="header">
-            <a href="archive.html"><img class="header__archive" src="./images/archive-icon.png" alt="Archive"></a>
-
-            <h2 class="header__heading">Newsbox</h2>
-
-            <a href="settings.html"><img class="header__settings" src="./images/settings-icon.png" alt="Settings"></a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="archive.html"><img src="images/archive-icon.png" alt="Archive"></a>
+                    </li>
+                    <li>
+                        <h1 class="menu__heading">News settings</h1>
+                    </li>
+                    <li class="menu__item"><a href="settings.html"><img src="images/settings-icon.png"
+                                alt="Settings"></a></li>
+                </ul>
+            </nav>
         </header>
         <section class="search">
             <input class="search__bar" type="search" placeholder="Search news" name="search__bar" id="">

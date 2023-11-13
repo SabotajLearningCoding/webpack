@@ -104,7 +104,10 @@ var settings_icon_namespaceObject = "data:image/png;base64,ZXhwb3J0IGRlZmF1bHQgX
 var delete_icon_namespaceObject = "data:image/png;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzL2RlbGV0ZS1pY29uLnBuZyI7";
 ;// CONCATENATED MODULE: ./src/images/placeholder.png
 var placeholder_namespaceObject = "data:image/png;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzL3BsYWNlaG9sZGVyLnBuZyI7";
+;// CONCATENATED MODULE: ./src/images/arrow-left-icon.png
+var arrow_left_icon_namespaceObject = "data:image/png;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzL2Fycm93LWxlZnQtaWNvbi5wbmciOw==";
 ;// CONCATENATED MODULE: ./src/index.js
+
 
 
 

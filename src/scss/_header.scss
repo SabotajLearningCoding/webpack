@@ -3,10 +3,44 @@
   justify-content: space-between; //space between the elements inside header
   padding: 5% 10%; //padding top and bottom 0px padding left and right 10px
 
-  .header__archive,
-  .header__settings {
+  &__archive,
+  &__settings {
     width: 30px;
     height: 30px;
     cursor: pointer;
+  }
+}
+
+/*_----------------------------------------------------------------------------------_*/
+.menu {
+  border-bottom: 1px solid #f0f3f4;
+  &__list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__header {
+    @extend %primary-heading;
+  }
+  &__search {
+    background-color: #f0f3f4;
+  }
+  &__inbox {
+    position: relative;
+    &::after {
+      background-color: #87bcbf;
+      color: #324755;
+      content: attr(data-text);
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      position: absolute;
+      text-align: center;
+      font-weight: 600;
+      top: -10px;
+      right: -10px;
+      pointer-events: none;
+    }
   }
 }

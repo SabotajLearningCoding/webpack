@@ -11,14 +11,61 @@
 <body>
     <div id="wrapper">
         <header class="header">
-            <a href="archive.html"><img class="header__archive" src="./images/archive-icon.png" alt="Archive"></a>
-
-            <h2 class="header__heading">Newsbox</h2>
-
-            <a href="settings.html"><img class="header__settings" src="./images/settings-icon.png" alt="Settings"></a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="index.html"><img src="images/arrow-left-icon.png"
+                                alt="back-Btn"></a></li>
+                    <li>
+                        <h1 class="menu__heading">News settings</h1>
+                    </li>
+                    <li class="menu__item"><a href="settings.html"><img src="images/settings-icon.png"
+                                alt="Settings"></a></li>
+                </ul>
+            </nav>
         </header>
-        <main>
+        <main class="settings__main">
+            <h2 class="settings__heading"><span class="heading__Manage">Manage</span></h2>
+            <h2 class="settings__heading"><span class="heading__Categories">Categories</span></h2>
+            <div class="setting-container">
 
+                <div class="setting">
+                    <h3 class="setting__header">Europe</h3>
+                    <button class="setting__btn">
+                        <div class="setting__slider"></div>
+                    </button>
+                </div>
+
+                <div class="setting">
+                    <h3 class="setting__header">Health</h3>
+                    <button class="setting__btn">
+                        <div class="setting__slider"></div>
+                    </button>
+                </div>
+
+                <div class="setting">
+                    <h3 class="setting__header">Sports</h3>
+                    <button class="setting__btn">
+                        <div class="setting__slider"></div>
+                    </button>
+                </div>
+
+                <div class="setting">
+                    <h3 class="setting__header">Business</h3>
+                    <button class="setting__btn">
+                        <div class="setting__slider"></div>
+                    </button>
+                </div>
+
+                <div class="setting">
+                    <h3 class="setting__header">Travel</h3>
+                    <button class="setting__btn">
+                        <div class="setting__slider"></div>
+                    </button>
+                </div>
+
+            </div>
+            <button class="darkMode-Btn">toggle dark mode</button>
+            <p class="ta-center fs text-slate">Version 4.8.15.16.23.42</p>
         </main>
         <footer class="footer">
         </footer>

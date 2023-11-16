@@ -1,9 +1,19 @@
-.settings {
+.setting {
   display: flex;
   justify-content: space-between;
   padding: 20px;
   border-bottom: 1px solid #f0f3f4;
   background-color: #ffffff;
+  max-width: 95%;
+  margin: 0 auto;
+  &__first {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  &__last {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
   &__btn {
     width: 50px;
     padding: 1px;
@@ -25,10 +35,28 @@
     text-transform: uppercase;
   }
 }
+.settings {
+  &__main {
+    background-color: #c8d1d3;
+  }
+
+  &__heading {
+    text-align: center;
+
+    &__Manage {
+      color: #87bcbf;
+    }
+
+    &__Categories {
+      color: #6e8ca0;
+    }
+  }
+}
 
 .darkMode-Btn {
   text-transform: uppercase;
-  border: 1px solid var(--fossil);
+  border: 1px solid #c8d1d3;
+  color: #000;
   border-radius: 20px;
   padding: 15px;
   margin-top: 50px;

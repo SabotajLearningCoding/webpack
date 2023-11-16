@@ -28,7 +28,7 @@
     border-radius: 50%;
     background-color: #ffffff;
     box-shadow: 0 0 5px rgb(0, 0, 0, 15%);
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease;
     transform: translateX(100%);
   }
   &__heading {
@@ -51,14 +51,4 @@
       color: #6e8ca0;
     }
   }
-}
-
-.darkMode-Btn {
-  text-transform: uppercase;
-  border: 1px solid #c8d1d3;
-  color: #000;
-  border-radius: 20px;
-  padding: 15px;
-  margin-top: 50px;
-  margin-bottom: 25px;
 }

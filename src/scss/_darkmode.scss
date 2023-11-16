@@ -1,3 +1,19 @@
+.darkMode-Btn {
+  text-transform: uppercase;
+  border: 1px solid #c8d1d3;
+  color: #000;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.version-text {
+  text-align: center;
+}
+
 body {
   --headerBackground: hsl(240, 49%, 67%);
   --secondaryTextColor: white;

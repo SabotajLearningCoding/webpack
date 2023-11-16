@@ -22,7 +22,7 @@ var __webpack_exports__ = {};
 })());
 ;// CONCATENATED MODULE: ./src/scripts/darkmode.js
 /* harmony default export */ var darkmode = ((function () {
-  if (!window.location.pathname.includes("darkmode.html")) return; // guard clause
+  if (!window.location.pathname.includes("settings.html")) return; // guard clause
 
   if (
     window.matchMedia("(prefers-color-scheme: dark)").matches &&
@@ -31,7 +31,7 @@ var __webpack_exports__ = {};
     localStorage.setItem("theme", "darkmode");
   }
 
-  const CTA_BUTTON = document.querySelector(".switch__checkbox");
+  const CTA_BUTTON = document.querySelector(".darkMode-Btn");
   CTA_BUTTON.addEventListener("click", clickHandler);
 
   function clickHandler() {
@@ -107,6 +107,7 @@ var placeholder_namespaceObject = "data:image/png;base64,ZXhwb3J0IGRlZmF1bHQgX19
 ;// CONCATENATED MODULE: ./src/images/arrow-left-icon.png
 var arrow_left_icon_namespaceObject = "data:image/png;base64,ZXhwb3J0IGRlZmF1bHQgX193ZWJwYWNrX3B1YmxpY19wYXRoX18gKyAiaW1hZ2VzL2Fycm93LWxlZnQtaWNvbi5wbmciOw==";
 ;// CONCATENATED MODULE: ./src/index.js
+
 
 
 

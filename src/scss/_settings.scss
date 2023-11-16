@@ -37,18 +37,31 @@
 }
 .settings {
   &__main {
-    background-color: #c8d1d3;
+    background-color: #f0f3f4;
+  }
+
+  &__line {
+    display: block;
+    color: #fff;
   }
 
   &__heading {
     text-align: center;
+    margin: 1% 0% 10%;
+    padding-top: 4%;
 
     &__Manage {
       color: #87bcbf;
+      font-size: 2em;
+      font-weight: 900;
+      display: block;
     }
 
     &__Categories {
       color: #6e8ca0;
+      font-size: 1.2em;
+      font-weight: 400;
+      display: block;
     }
   }
 }
